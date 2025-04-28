@@ -15,7 +15,7 @@ cd minitalk
 make
 ```
 
-Utilisation
+## Utilisation
 ```bash
 Lancer le serveur :
 
@@ -30,7 +30,7 @@ Exemple :
 ./server
 ./client 4242 "Hello, World!"
 ```
-Fichiers
+## Fichiers
 
 includes/minitalk.h : Header principal du projet.
 
@@ -42,7 +42,7 @@ libft/ : Ma bibliothèque personnelle (libft incluse avec ft_printf et get_next_
 
 Makefile : Fichier pour compiler et nettoyer le projet.
 
-Commandes Makefile
+## Commandes Makefile
 ```bash
 make : Compile les programmes.
 
@@ -52,7 +52,7 @@ make fclean : Supprime les fichiers objets et les exécutables.
 
 make re : fclean puis make.
 ```
-Fonctionnement
+## Fonctionnement
 
 SIGUSR1 = bit à 1
 
